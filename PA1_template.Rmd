@@ -5,9 +5,12 @@ output:
     keep_md: true
 ---
 
+srcFolder <- './ReproducibleResearch/repdata_data_activity/'
+getwd()
+setwd(srcFolder)
 
 ## Loading and preprocessing the data
-
+mydata <- read.csv('activity.csv')
 
 
 ## What is mean total number of steps taken per day?
